@@ -1,22 +1,16 @@
 import './App.css';
 
 function App() {
+//Event controllers
+  const onButtonClick = () => {
+    alert('hello')
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>Welcome to Pittsburgh</h1>
+     <button onClick = {onButtonClick}>Submit</button>
+     
     </div>
   );
 }
